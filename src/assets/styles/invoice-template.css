@@ -1,0 +1,154 @@
+:root {
+  --font-color: #363f4e;
+  --font-size: 12px;
+  --font-size-2: 14px;
+  --font-size-4: 16px;
+}
+body{
+  font-family: "BahjiiLight";
+}
+
+p {
+  font-size: var(--font-size);
+}
+
+.print-area {
+  color: var(--font-color) !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-name h3 {
+  font-family: "BahjiiBold" !important;
+  font-size: var(--font-size-4);
+  text-align: center;
+}
+
+.top-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid #f0f2ed;
+  border-radius: 12px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.top-div .right-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.top-div .img-container {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.top-div .logo-container p {
+  margin-bottom: 0px !important;
+  border: 1px solid var(--font-color);
+  border-radius: 50%;
+  padding: 15px;
+  text-align: center;
+}
+
+.top-div h3 {
+  font-family: "BahjiiBold" !important;
+  font-size: var(--font-size-2) !important;
+}
+
+.user-details,
+.client-details,
+.invoice-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.client-details {
+  flex-basis: 50%;
+}
+
+.user-details span,
+.client-details span,
+.invoice-details span {
+  font-family: "BahjiiBold" !important;
+  font-size: var(--font-size) !important;
+}
+
+.user-details p {
+  margin-bottom: 0;
+}
+
+.client-details p {
+  margin-bottom: 5px;
+}
+.table-contaier tr td:first-child,
+.table-contaier table th {
+  font-family: "BahjiiBold" !important;
+}
+.table-contaier table td,
+.table-contaier table td span {
+  font-family: "BahjiiLight";
+  font-size: var(--font-size) !important;
+}
+.footer-div .footer-top-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-div .footer-right-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 60%;
+}
+
+.total-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5px;
+  background-color: #f0f2ed;
+  border-radius: 12px;
+  flex-basis: 40%;
+  padding: 20px 0;
+}
+
+.total-container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.total-container p {
+  font-family: "BahjiiBold";
+  font-size: var(--font-size-2);
+}
+
+.total-tax-container {
+  background: white;
+  border-radius: 12px;
+  padding: 8px !important;
+  margin: 0 auto;
+  width: 90% !important;
+}
+
+.payment-container {
+  border-top: 1px solid white;
+  margin-top: 5px;
+  padding: 20px 20px 0 20px;
+}

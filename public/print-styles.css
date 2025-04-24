@@ -1,0 +1,23 @@
+@media print {
+  :root {
+    --print-size: "A4";
+  }
+  @page {
+    size: var(--print-size);
+    margin: 0 !important;
+  }
+  body {
+    -webkit-print-color-adjust: exact !important;
+  }
+  #header,
+  #footer {
+    display: none !important;
+  }
+  .navigation {
+    display: none;
+  }
+  .v-main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

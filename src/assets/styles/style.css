@@ -1,0 +1,292 @@
+.search .v-input__slot {
+  border-radius: 12px !important;
+  min-height: 40px !important;
+}
+.search .v-input__prepend-inner,
+.search .v-input__append-inner {
+  margin-top: 8px !important;
+}
+.search .v-text-field__slot {
+  padding-right: 5px;
+}
+.search fieldset:focus {
+  border: 2px solid #4fca9a !important;
+}
+.search i {
+  color: #4fca9a !important;
+}
+.searchBox {
+  margin-top: 50px;
+}
+.icon {
+  position: absolute !important;
+  padding: 4px 17px;
+}
+input[type="search"] {
+  border: 2px solid #4fca9a !important;
+  border-radius: 12px !important;
+  padding: 0px 50px !important;
+  width: 245px !important;
+  height: 35px !important;
+}
+input[type="search"]:focus {
+  outline: none !important;
+}
+.add-btn {
+  border-radius: 10px;
+  width: 200px;
+  height: 35px;
+}
+.add-btn .v-input__slot .mdi-close {
+  margin-top: -15px;
+}
+.tableStriped td {
+  position: relative !important;
+  text-align: center;
+}
+.tableStriped td:not(:last-child) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 120px !important;
+}
+.tableStriped th {
+  position: relative;
+  font-family: "BahjiiBold";
+  color: #707070;
+  background-color: #f6f6f6 !important;
+}
+.tableStriped td::after,
+.tableStriped th::after {
+  position: absolute;
+  content: "";
+  border-left: 1px solid #d3d3d3;
+  height: 20px;
+  top: 28%;
+  left: 0px;
+}
+.eng-table td::after,
+.eng-table th::after {
+  border-left: none !important;
+  border-right: 1px solid #d3d3d3;
+  right: 0px;
+  left: auto;
+}
+.tableStriped tbody tr:nth-of-type(even),
+.tableStriped thead tr {
+  background-color: rgba(211, 211, 211, 0.2);
+}
+
+.tableStriped td:last-child::after,
+.tableStriped th:last-child::after {
+  display: none;
+}
+.tableStriped tbody tr {
+  line-height: 4;
+}
+.tableStriped .v-data-table__empty-wrapper td,
+.no-products {
+  color: black !important;
+  font-size: 18px !important;
+}
+.date-picker-container {
+  width: 100% !important;
+}
+.actions {
+  font-size: 0.8rem !important;
+  height: 29px !important ;
+  border-radius: 8px !important;
+  min-width: 40px !important;
+}
+.pagination ul {
+  justify-content: flex-end !important;
+}
+.pagination button {
+  margin: 2rem 0 !important;
+  color: #4fca9a !important;
+  border: 1px solid #d3d3d3;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  height: 35px !important;
+}
+.pagination .v-pagination__navigation {
+  width: 80px;
+}
+.pagination li button i {
+  color: #4fca9a !important;
+  font-size: 14px !important;
+  font-family: "BahjiiSemiBold" !important;
+}
+.v-pagination .v-pagination__item--active.primary {
+  color: white !important;
+  background-color: #4fca9a !important;
+  border-color: #4fca9a !important;
+}
+.cardForm {
+  width: 60%;
+  padding: 30px 0px 0px 0px !important;
+}
+
+.cardForm label {
+  font-family: "BahjiiLight";
+  font-size: 17px;
+}
+.cardForm .v-input__slot {
+  min-height: 53px !important;
+  margin-top: 10px !important;
+}
+.cardForm fieldset {
+  /* border: 2px solid #d2d2d2 !important; */
+  border-radius: 8px !important;
+}
+
+.fileInput .v-input__prepend-outer {
+  display: none;
+}
+.fileInput .v-input__append-outer {
+  margin-top: 26px !important;
+  margin-left: 0 !important;
+}
+.card-title-container {
+  color: #4fca9a;
+  font-size: 1.25rem !important;
+}
+/*--------------------style for form container ----------------------------------*/
+.form-container label {
+  color: black;
+}
+.form-container .v-input__slot,
+.form-container.v-autocomplete .v-input__slot,
+.form-container .v-select--is-menu-active .v-input__slot {
+  background: #f1f0ed !important;
+  min-height: 40px !important;
+  margin-bottom: 2px !important;
+}
+.v-autocomplete .v-select__selections {
+  padding: 4px 0 !important;
+}
+.form-container .v-autocomplete .v-input__append-inner {
+  margin-top: 8px !important;
+  cursor: pointer;
+}
+
+.form-container fieldset {
+  border: none;
+}
+.form-container .v-text-field--outlined fieldset {
+  border-width: 1px;
+}
+.form-container input {
+  font-family: "BahjiiLight";
+  font-size: 0.875rem !important;
+}
+.form-container button span{
+  font-size: 0.8rem !important;
+}
+/*-------------- style for card in table in responsive --------------------------------- */
+.no-data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.no-data-container p {
+  margin-bottom: 0;
+  font-family: "BahjiiBold";
+  font-size: 1.1 rem;
+}
+.mx-range-wrapper {
+  direction: rtl;
+}
+.mx-calendar-header .mx-btn-icon-double-right,
+.mx-calendar-header .mx-btn-icon-double-left {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .add-btn {
+    min-width: 40px !important;
+    width: 5px;
+    background: rgba(79, 202, 154, 0.6) !important;
+    margin-right: 10px;
+  }
+  .add-btn i {
+    color: #4fca9a !important;
+  }
+  .add-btn .addText {
+    display: none !important;
+  }
+  input[type="search"] {
+    width: 100% !important;
+  }
+}
+@media (min-width: 1024px) {
+  .tableStriped {
+    display: block;
+  }
+  .invoice-responsive,
+  .cards-responsive {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .tableStriped {
+    display: none;
+  }
+
+  .invoice-responsive,
+  .cards-responsive {
+    display: block;
+  }
+}
+
+@media (max-width: 330px) {
+  .v-pagination {
+    flex-wrap: wrap;
+  }
+
+  .v-pagination__navigation {
+    width: 50px !important;
+  }
+}
+@media (max-width: 425px) {
+  .card-title-container {
+    font-size: 0.9rem !important;
+  }
+  .form-container label 
+  {
+    font-size: 0.8rem;
+  }
+  .form-container .v-input__slot,
+  .form-container.v-autocomplete .v-input__slot,
+  .form-container .v-select--is-menu-active .v-input__slot {
+    min-height: 30px !important;
+  }
+  .form-container button span {
+    font-size: 0.7rem !important;
+  }
+  .form-container button 
+  {
+    height: 25px !important;
+  }
+}
+.invoice-content-responsive div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.invoice-content-responsive div span {
+  color: black;
+}
+
+.invoice-content-responsive div p {
+  font-size: 0.8rem;
+}
+.invoice-content-responsive button span {
+  color: white !important;
+}
+.invoice-responsive .v-card,
+.cards-responsive .v-card {
+  height: 100%;
+  display: flex;
+}
